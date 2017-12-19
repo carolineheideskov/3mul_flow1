@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+	margin-left: 9%;
+	margin-right: 0%;
+	}
+.header {
+	width: 100%;
+	height: auto;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9EC5E4;
+}
+
+li {
+    float: left;
+    margin-left: 2%;
+}
+
+.home {
+    margin-left: 9%;
+}
+.kontakt {
+    margin-right: 30%;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #043762;
+}  
+.profil {
+    width: 2.2%;
+    padding-top: 0.7%;
+    text-decoration: none;
+  
+} 
+.profil1 {
+width: 2.5%;
+    margin-left: 1%;
+}
+
+.logo {
+	width: 50%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.soeg {
+	width: 40%;
+	height: auto;
+	margin-left: -3.7%;
+	margin-top: -220px;
+}
+.soeg, .logo {
+	display:inline-block;
+}
+.navi {
+	width: 100%;
+	height: auto;
+	background-color: blue; 
+}
+.navigationside {
+    font-size: 2.0em;
+   
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+}
+.containerside {
+	margin-left: 9%;
+	margin-right: 0%;
+	}
+.container1 {
+  position: relative;
+  width: 20%;
+    display: inline-block;
+    padding-left: 1.8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.image {
+ 
+	width: 97%;
+	height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;;
+  bottom: 20px;;
+  left: 3.8%;
+  right: 1%;
+  height: auto;
+  width: 97%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+   
+}
+.container1:hover .overlay {
+  opacity: 0.8;
+}
+.video {
+    margin-top: 25px;
+    margin-left: 44%;
+}
+.by {
+    width: 96.5%
+}
+.text {
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-45%, -45%);
+  -ms-transform: translate(-45%, -45%);
+}
+
+                                                    /* Index starter her */
+
+.container2 {
+  position: relative;
+  width: 40%;
+    float: left;
+    padding-left: 1.8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container2:hover .overlay {
+  opacity: 0.8;
+}
+.container3 {
+  position: relative;
+  width: 32.4%;
+    float: left;
+    padding-left: 1.8%;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+.container3:hover .overlay {
+  opacity: 0.8;
+}
+.nyheder {
+    height: 50px;
+    width: 100%;
+    background-color: #9EC5E4;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top:  13px;
+    text-decoration: none;
+    font-size: 25.5px;
+}
+.forum {
+    width: 90%;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.deal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 89%;
+}
+.indkob {
+    margin-top: 20px;
+    width: 90%;
+}
+.footer {
+	width: 100%;
+	height: auto;
+
+}
